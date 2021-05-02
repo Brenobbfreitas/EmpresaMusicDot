@@ -1,4 +1,52 @@
-p{
-  color: blue;
-  background-color: yellow;
+/*
+Configurando espaçamento:
+p {
+  line-height: 3px; /* tamanho da altura de cada linha 
+  letter-spacing: 3px;  tamanho do espaço entre cada letra 
+  word-spacing: 5px;  tamanho do espaço entre cada palavra 
+  text-indent: 30px;  tamanho da margem da primeira linha do texto 
+}
+*/
+
+/*
+Bordas:
+  body {
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
+  
+  Forma resumida do exemplo acima:
+  body {
+  border: 1px solid red;
+}
+}
+
+Definindo onde a borda será alterada
+h1 {
+  border-top: 1px solid red;  borda vermelha em cima 
+  border-right: 1px solid red;  borda vermelha à direita 
+  border-bottom: 1px solid red;  borda vermelha embaixo 
+  border-left: 1px solid red;  borda vermelha à esquerda 
+}
+*/
+
+
+
+body{
+  font-family: "Helvetica","Lucida Grande",sans-serif;
+  color: #3d3d3d;
+}
+
+h1{
+  background-color: #e1edf2;
+}
+
+h2{
+  border-bottom: 2px solid black;
+}
+
+figure{
+  text-align: center;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
 }
