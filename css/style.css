@@ -21,9 +21,7 @@ figure img{
   width: 100%;
 }
 
-figcaption{
-  margin-top: 10px;
-}
+
 
 /*
 classes
@@ -32,6 +30,10 @@ classes
   width: 550px;
   margin-left: auto;
   margin-right: auto;
+}
+
+figcaption{
+  margin-top: 10px;
 }
 
 .figFamilia{
@@ -95,3 +97,22 @@ p{
   margin-top: 100px;
 }
 */
+
+/* 
+BEM usa um conceito de bloco__elemento--modificador para nomear suas classes,
+ sendo que bloco é o elemento html que representa uma divisão de conteúdo cuja sua existência já tenha um sentido por si só, 
+ elemento representa uma parte semântica do bloco e modificador é uma sinalização de comportamento ou estilização. 
+ */
+
+ /* 
+.exemplo {
+  background-color: blue;
+  width: 30%;  
+}
+
+.exemplo2 {
+  background-color: red;
+  width: 60%;
+  display: inline-block;-> transformar um elemento inline em bloco
+}
+ */
