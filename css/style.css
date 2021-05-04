@@ -37,9 +37,9 @@ p{
   height: 300px;
   Largura
   width: 300px;
-  espaçamento interno em elementos/Quando escrito apenas padding é aplicado em todos os outros(top-right-left-bottom)
+  espaçamento interno em elementos/Quando escrito apenas "padding" é aplicado em todos os outros(top-right-left-bottom)
   padding-top: 100px;
- espaçamento externo em elementos/Quando escrito 
+ espaçamento externo em elementos/Quando escrito apenas "margin" é aplicado em todos os outros(top-right-left-bottom)
   margin-top: 100px;
 }
 */
