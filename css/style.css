@@ -6,9 +6,6 @@ body{
   margin-right: auto;
 }
 
-h2{
-  border-bottom: 2px solid black;
-}
 
 figure{
   text-align: center;
@@ -42,9 +39,14 @@ classes
   float: right;
 }
 
-.empresa{
+.titulo{
   background-color: #e1edf2;
   padding: 10px;
+  font-size: 32px;
+}
+
+.subtitulo{
+  border-bottom: 2px solid black;
 }
 
 
