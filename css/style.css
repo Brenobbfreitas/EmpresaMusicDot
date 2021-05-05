@@ -51,6 +51,16 @@ figcaption{
   border-bottom: 2px solid black;
 }
 
+.contato_info{
+  margin: 16px 0 24px;
+  padding-left: 32px;
+  display: inline;
+}
+
+.contato_subtitulo,
+.contato_info{
+  display: inline;
+}
 
 /*
 Configurando espaçamento:
