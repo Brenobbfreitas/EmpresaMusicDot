@@ -4,6 +4,9 @@ body{
   width: 940px;
   margin-left: auto;
   margin-right: auto;
+
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 
@@ -20,8 +23,21 @@ figure{
 figure img{
   width: 100%;
 }
+/* footer */
+.rodape{
+  padding: 1.75rem 0;
 
+  font-size: 1.1rem;
+}
 
+.rodape-logo{
+  width: 6em;
+}
+
+.rodape_copyright{
+  display: inline;
+  margin-left: 1em;
+}
 
 /*
 classes
@@ -51,16 +67,32 @@ figcaption{
   border-bottom: 2px solid black;
 }
 
-.contato_info{
-  margin: 16px 0 24px;
-  padding-left: 32px;
+.contato_subtitulo{
   display: inline;
 }
 
-.contato_subtitulo,
 .contato_info{
-  display: inline;
+  margin: 16px 0 24px;
+  padding-left: 32px;
 }
+
+.contato_info-titulo,
+.contato_info-descricao{
+  display: inline;
+  margin: 16px 0 24px;
+}
+
+
+.contato_secao{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 16px;
+}
+
+.contato_secao--telefone{
+  margin-left: 32px;
+}
+
 
 /*
 Configurando espaçamento:
