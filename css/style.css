@@ -108,6 +108,8 @@ figcaption{
 
 /* media queries */
 
+/* o @media só é acionado quando o limite do width é atingido/resposividade */
+
 @media(max-width:850px){
   .contato_secao{
     display: block;
