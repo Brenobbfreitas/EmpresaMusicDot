@@ -53,6 +53,7 @@ body {
 }
 
 a {
+	/* inherit herdara as propriedades da sua tag pai  */
   color: inherit;
   text-decoration: inherit;
 }
