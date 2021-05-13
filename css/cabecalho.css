@@ -1,17 +1,22 @@
+
 .cabecalho{
   text-align: center;
+  /* fonte do cabeçalho */
   font-size: 0.6rem;
+  /* tamanho da fonte */
   font-weight: bold;
+  /* deixar tudo em letra maiuscula */
   text-transform: uppercase;
+  /* espaço entre as letras */
   letter-spacing: 0.23em;
-
   color: #fff;
   background-color: #2d5377;
 }
 
 .cabecalho_logo{
-  padding: 1.5 0;
+  padding: 1.5 0 ;
   width: 14.5em;
+  margin: 2em;
 }
 
 .cabecalho_menu{
@@ -24,5 +29,7 @@
 
 .cabecalho_item-menu a{
   display: inline-block;
+
+  /* espaçamento interno */
   padding: 1.86em 1.42em;
 }
