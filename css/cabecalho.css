@@ -17,9 +17,14 @@
   padding: 1.5 0 ;
   width: 14.5em;
   margin: 2em;
+
 }
 
 .cabecalho_menu{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
   background-color: #272b3a87;
 }
 
@@ -32,4 +37,30 @@
 
   /* espaçamento interno */
   padding: 1.86em 1.42em;
+}
+
+@media (min-width:640px) {
+  .cabecalho{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cabecalho_logo{
+    padding: 2.5em 0;
+  }
+
+  .cabecalho_menu{
+    background-color: transparent;
+  }
+}
+
+@media (min-width:770px) {
+  .cabecalho_item-menu-matricular a{
+    margin-left: 1.42em;
+
+    border-radius: 6px;
+    background-color: #e93d50;
+  }
 }
