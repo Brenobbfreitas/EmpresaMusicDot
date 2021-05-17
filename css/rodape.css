@@ -1,0 +1,31 @@
+.rodape{
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.rodape_logo{
+  width: 11.25em;
+}
+
+.lista-midias_sociais{
+  display: flex;
+  justify-content: center;
+}
+
+.item-midias_sociais{
+  width: 2.62em;
+}
+
+.item-midias_sociais img{
+  width: 100%;
+}
+
+.rodape_titulo{
+  font-size: 1.45em;
+  font-size: bold;
+  text-transform: uppercase;
+}
+
+.rodape-item_lista{
+  font-weight: 500;
+}
