@@ -1,19 +1,31 @@
 .rodape{
+  padding: 2em 5%;
   text-align: center;
   font-size: 0.7rem;
 }
 
 .rodape_logo{
   width: 11.25em;
+  margin-bottom: 1em;
+}
+
+.rodape_info-empresa{
+  line-height: 1.5em;
+}
+
+.rodape_secao + .rodape_secao{
+  margin-top: 2em;
 }
 
 .lista-midias_sociais{
   display: flex;
   justify-content: center;
+  margin-top: 1em;
 }
 
 .item-midias_sociais{
   width: 2.62em;
+  margin: 0 .25em;
 }
 
 .item-midias_sociais img{
@@ -21,6 +33,7 @@
 }
 
 .rodape_titulo{
+  margin-bottom: 1em;
   font-size: 1.45em;
   font-size: bold;
   text-transform: uppercase;
