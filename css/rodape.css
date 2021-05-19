@@ -13,9 +13,7 @@
   line-height: 1.5em;
 }
 
-.rodape_secao + .rodape_secao{
-  margin-top: 2em;
-}
+
 
 .lista-midias_sociais{
   display: flex;
@@ -42,3 +40,4 @@
 .rodape-item_lista{
   font-weight: 500;
 }
+
