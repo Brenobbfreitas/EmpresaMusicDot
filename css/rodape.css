@@ -13,7 +13,9 @@
   line-height: 1.5em;
 }
 
-
+.rodape_secao + .rodape_secao{
+  margin-top: 2em;
+}
 
 .lista-midias_sociais{
   display: flex;
@@ -34,6 +36,7 @@
   margin-bottom: 1em;
   font-size: 1.45em;
   font-size: bold;
+  /* tipo de font bold(negrito) */
   text-transform: uppercase;
 }
 
@@ -41,3 +44,46 @@
   font-weight: 500;
 }
 
+@media (max-width:640px) {
+  .rodape_secao + .rodape_secao{
+    margin-top: 2em;
+  }
+}
+
+
+@media(min-width:640px)and(max-width:1200px){
+  .rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    font-size: 1rem;
+  }
+
+  .rodape_secao-sobre,
+  .rodape_secao-cursos,
+  .rodape_secao-links,
+  .rodape_secao-newsletter{
+    max-width: 45%;
+  }
+
+  .rodape_secao-cursos{
+    order: 1;
+    margin: 0;
+  }
+
+  .rodape_secao-links{
+    order: 2;
+    margin: 0;
+  }
+
+  .rodape_secao-sobre{
+    order: 3;
+    margin-top: 2em;
+  }
+
+  .rodape_secao-newsletter{
+    order: 4 ;
+    margin-top: 2em;
+  }
+}
